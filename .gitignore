@@ -1,0 +1,6 @@
+/target
+/dist
+/pkg
+/src/*.tar.gz
+*.pkg.tar.zst
+/src/target

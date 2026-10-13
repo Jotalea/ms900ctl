@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=MS900 Gaming Mouse
+Comment=Configure the Havit MS900 gaming mouse
+Exec=ms900ctl
+Icon=ms900ctl
+Terminal=false
+Categories=Settings;HardwareSettings;Utility;
+Keywords=mouse;havit;ms900;dpi;macro;rgb;

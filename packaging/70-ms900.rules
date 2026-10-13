@@ -1,0 +1,4 @@
+# Havit MS900 gaming mouse (Sinowealth 258a:0029)
+# Lets the logged-in user talk to the mouse's vendor HID interface so
+# ms900ctl can run without root.
+KERNEL=="hidraw*", SUBSYSTEMS=="usb", ATTRS{idVendor}=="258a", ATTRS{idProduct}=="0029", MODE="0660", TAG+="uaccess"
